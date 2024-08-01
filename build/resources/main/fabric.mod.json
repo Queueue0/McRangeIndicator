@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "modid",
+	"version": "0.1.0",
+	"name": "Hittable Indicator",
+	"description": "Shows when you can hit an entity!",
+	"authors": [
+		"Queueue_"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [],
+		"client": []
+	},
+	"mixins": [
+		"modid.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

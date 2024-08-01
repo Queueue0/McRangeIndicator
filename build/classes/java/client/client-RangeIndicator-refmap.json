@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "queueue/RangeIndicator/mixin/client/HasOutlineMixin": {
+      "hasOutline(Lnet/minecraft/entity/Entity;)Z": "Lnet/minecraft/class_310;method_27022(Lnet/minecraft/class_1297;)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "queueue/RangeIndicator/mixin/client/HasOutlineMixin": {
+        "hasOutline(Lnet/minecraft/entity/Entity;)Z": "Lnet/minecraft/class_310;method_27022(Lnet/minecraft/class_1297;)Z"
+      }
+    }
+  }
+}
